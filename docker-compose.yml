@@ -9,6 +9,11 @@ services:
         aliases:
           - excalidraw-canvas
     restart: unless-stopped
+    deploy:
+      restart_policy:
+        condition: any
+        delay: 5s
+        max_attempts: 0
     healthcheck:
       test:
         [

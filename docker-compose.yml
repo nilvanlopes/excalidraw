@@ -1,6 +1,6 @@
 services:
   excalidraw-canvas:
-    image: ghcr.io/yctimlin/mcp_excalidraw-canvas:latest@sha256:d2c4c126705e9917a75282dd6f6cc78093767e2423171b8a016b671e76169bca
+    image: ghcr.io/yctimlin/mcp_excalidraw-canvas:latest@sha256:04aac8881977755bf3b3ac0644bcefb5ce7232828a8b604f96ce0c03c152a85b
     container_name: excalidraw-canvas
     ports:
       - "127.0.0.1:3000:3000"
